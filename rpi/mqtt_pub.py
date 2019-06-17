@@ -88,7 +88,14 @@ if __name__ == "__main__":
     client.connect(mqtt_url, mqtt_port, keepalive=60)
 
     socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    socket.bind(('10.42.0.1', 5000))
+    sockflag = False
+    while not sockflag:
+        try:
+            socket.bind(('10.42.0.1', 5000))
+            sockflag = True
+        except:
+            pass
+
     
     while True:
         data, addr = socket.recvfrom(1024)
