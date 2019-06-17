@@ -13,10 +13,10 @@ private_key_file = DIR + 'rsa_private.pem'
 mqtt_url = "mqtt.googleapis.com"
 mqtt_port = 8883
 mqtt_topic = "/projects/corded-velocity-239915/topics/test_topic"
-project_id   = "corded-velocity-239915"
+project_id = "corded-velocity-239915"
 cloud_region = "europe-west1"
-registry_id  = "test_registry"
-device_id    = "rpi"
+registry_id = "test_registry"
+device_id = "rpi"
 
 connflag = False
 
