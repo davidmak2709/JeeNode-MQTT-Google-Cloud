@@ -1,4 +1,4 @@
-#JeeNode MQTT Google Cloud
+# JeeNode MQTT Google Cloud
 
 U ovom dokumentu opisani su potrebni zahtjevi i koraci za spajanje mreže JeeNode čvorova na Google Cloud IoT servis. Mreža JeeNode-ova prikuplja svjetlosne i kompas podatke te ih preko Raspberry Pi mikrokontrolera šalje na Google Cloud.
 
